@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Preaching & Deck"
+  short_description: "Turn project materials into persuasive Slidev decks"
+  default_prompt: "Use $project-preaching-deck-orchestration to turn these project materials into an evidence-aware Slidev deck blueprint and speaker notes."
