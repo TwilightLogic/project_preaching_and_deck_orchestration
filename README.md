@@ -8,6 +8,7 @@ This repository packages a reusable workflow for:
 - comparing multiple narrative options
 - producing a deck blueprint
 - writing page-by-page speaker notes
+- rescuing weak or incomplete materials with cautious, defensible framing
 
 ## What This Skill Is For
 
@@ -21,6 +22,12 @@ It is designed for cases such as:
 - project pitches that need both structure and persuasion
 
 The skill is especially useful when teams tend to jump straight into slides and end up with feature lists instead of a convincing story.
+
+## Why It Is Different
+
+This skill does not treat presentation work as a slide-writing task.
+
+It first models the project, then builds a persuasion chain, then chooses the narrative, and only then moves into deck structure and speaking notes. That makes it more useful when the source material is messy, incomplete, or stronger in logic than in polished proof.
 
 ## Core Workflow
 
@@ -41,6 +48,7 @@ This skill is built to be:
 - structured rather than ad hoc
 - Slidev-friendly rather than office-slide heavy
 - persuasive without making unsupported claims
+- useful even when the materials are still early or uneven
 
 It distinguishes between direct evidence, indirect evidence, assumptions, and missing information, and it prefers cautious wording when proof is limited.
 
@@ -80,7 +88,7 @@ Example local install target:
 Once installed, invoke it explicitly in a prompt:
 
 ```text
-Use $project-preaching-deck-orchestration to turn these project materials into an evidence-aware Slidev deck blueprint and speaker notes.
+Use $project-preaching-deck-orchestration to turn these project materials into a staged project brief, argument map, Slidev deck blueprint, and speaker notes.
 ```
 
 ## Validation
